@@ -1,0 +1,30 @@
+Detailed Analysis Results
+--------------------------------------------------
+
+1. Department Size vs Attrition Correlation:
+Correlation coefficient: -0.738
+
+2. Age Statistics by Attrition:
+             count      mean       std       min       25%       50%       75%      max
+Attrition                                                                              
+0          48168.0 -0.023274  0.978932 -1.856988 -0.891359 -0.006199  0.798492  1.84459
+1           1485.0  0.754925  1.329168 -1.856988 -0.649952  1.442245  1.844590  1.84459
+
+3. Length of Service Analysis:
+             count      mean       std       min       25%       50%       75%       max
+Attrition                                                                               
+0          48168.0 -0.004531  0.997605 -1.649681 -0.859194 -0.068708  0.721778  2.460847
+1           1485.0  0.146985  1.065064 -1.649681 -0.543000  0.405583  0.405583  2.302750
+
+4. Business Unit Summary:
+   BUSINESS_UNIT  count       mean
+1              1  49068   2.885791
+0              0    585  11.794872
+
+5. Top 5 Cities by Attrition Rate (min 100 employees):
+    city_name  count      mean
+39         39    617  1.620746
+4           4   2067  1.644896
+7           7   1785  1.848739
+21         21    648  1.851852
+28         28   1401  1.998572
