@@ -49,23 +49,6 @@ We compared three different machine learning models:
    - ROC curves demonstrate strong discriminative ability of our models
    - Categorical distribution plots reveal patterns in attrition across different groups
 
-## Recommendations
-
-1. Model Selection:
-   - Use the XGBoost model for attrition prediction due to its superior performance
-   - Consider ensemble approaches to improve recall while maintaining high precision
-
-2. Process Improvements:
-   - Implement regular model retraining to maintain prediction accuracy
-   - Set up automated alerts for employees identified as high-risk for attrition
-
-3. Data Collection:
-   - Consider collecting additional features such as:
-     - Employee satisfaction scores
-     - Performance reviews
-     - Compensation data
-     - Work-life balance metrics
-
 ## Technical Details
 
 The analysis pipeline includes:
@@ -81,19 +64,4 @@ All code and visualizations are available in the project repository:
 - Visualizations: `/reports/figures/`
 - Processed data: `/data/processed/`
 
-## Next Steps
 
-1. Model Optimization:
-   - Hyperparameter tuning for XGBoost
-   - Feature engineering to improve recall
-   - Address class imbalance
-
-2. Implementation:
-   - Deploy model as a service
-   - Create dashboard for HR team
-   - Set up automated reporting
-
-3. Validation:
-   - Collect feedback from HR team
-   - Monitor model performance
-   - Update features based on new insights
